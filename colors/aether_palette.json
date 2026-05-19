@@ -1,0 +1,13 @@
+{
+    "bg": "#020226",
+    "bg_light": "#16345a",
+
+    "fg": "#7bacd3",
+
+    "primary": "#34f875",
+    "muted": "#3c6585",
+    "accent": "#5a4ae2",
+    "highlight": "#a8ffd5",
+
+    "urgent": "#ff5c87"
+}

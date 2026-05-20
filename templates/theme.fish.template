@@ -1,0 +1,15 @@
+# Base backgrounds
+set -g BG "{bg}"
+set -g BG_LIGHT "{bg_light}"
+
+# Foreground
+set -g FG "{fg}"
+
+# Accents
+set -g PRIMARY "{primary}"
+set -g MUTED "{muted}"
+set -g ACCENT "{accent}"
+set -g HIGHLIGHT "{highlight}"
+
+# Status / urgency
+set -g URGENT "{urgent}"

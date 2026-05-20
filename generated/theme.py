@@ -1,10 +1,10 @@
 colors = {
-    "bg": "#111827",
-    "bg_light": "#1b2735",
-    "fg": "#d6e8f5",
-    "primary": "#49d6ff",
-    "muted": "#2bb6c4",
-    "accent": "#7c5cff",
-    "highlight": "#c9a86a",
-    "urgent": "#ff6b81"
+    "bg": "#09090c",
+    "bg_light": "#24242d",
+    "fg": "#c4c2c2",
+    "primary": "#ff4466",
+    "muted": "#6f7a8f",
+    "accent": "#42d9d6",
+    "highlight": "#ffffff",
+    "urgent": "#ff2b4f"
 }

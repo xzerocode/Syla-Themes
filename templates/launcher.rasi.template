@@ -1,0 +1,113 @@
+/* ---------------------------
+   Syla Launcher Template
+--------------------------- */
+
+* {{
+    bg:             {bg};
+    bg-input:       {bg_light};
+
+    fg:             {fg};
+    fg-muted:       {muted};
+
+    accent:         {primary};
+
+    selected:       {bg_light};
+
+    font: "JetBrainsMono Nerd Font 9";
+
+    border:         2px;
+    radius:         14px;
+}}
+
+window {{
+    transparency: "real";
+
+    location: north;
+    anchor: north;
+
+    width: 24%;
+
+    y-offset: 18px;
+
+    background-color: @bg;
+
+    border: @border;
+    border-color: @accent;
+
+    border-radius: @radius;
+}}
+
+mainbox {{
+    background-color: transparent;
+
+    padding: 8px;
+}}
+
+inputbar {{
+    background-color: @bg-input;
+
+    border-radius: @radius;
+
+    padding: 4px 8px;
+}}
+
+prompt {{
+    enabled: true;
+
+    background-color: transparent;
+
+    text-color: @accent;
+
+    padding: 0px 4px 0px 0px;
+}}
+
+entry {{
+    background-color: transparent;
+
+    text-color: @fg;
+
+    placeholder: "Search...";
+    placeholder-color: @fg-muted;
+
+    margin: 0px;
+}}
+
+listview {{
+    lines: 3;
+
+    background-color: transparent;
+
+    spacing: 2px;
+
+    margin: 8px 0px 0px;
+}}
+
+element {{
+    padding: 4px 8px;
+
+    border-radius: 10px;
+
+    background-color: transparent;
+
+    text-color: @fg;
+}}
+
+element normal.normal {{
+    background-color: transparent;
+    text-color: @fg;
+}}
+
+element selected.normal {{
+    background-color: @selected;
+    text-color: @fg;
+}}
+
+element alternate.normal {{
+    background-color: transparent;
+    text-color: @fg;
+}}
+
+element-text {{
+    background-color: transparent;
+    text-color: inherit;
+}}

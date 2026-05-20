@@ -1,0 +1,80 @@
+# =========================
+# Kitty - base estética limpia
+# =========================
+
+shell /usr/bin/fish
+
+font_family      JetBrains Mono Nerd Font
+font_size        11.0
+
+window_padding_width 12
+content_margin        8
+
+hide_window_decorations yes
+window_border_width     0
+draw_minimal_borders    yes
+background_opacity      0.85
+
+scrollback_lines 5000
+wheel_scroll_multiplier 2.0
+
+cursor_shape beam
+cursor_blink_interval 0.6
+
+tab_bar_edge top
+tab_bar_style fade
+
+confirm_os_window_close 0
+enable_audio_bell no
+
+repaint_delay 10
+sync_to_monitor yes
+
+remember_window_size yes
+initial_window_width  110
+initial_window_height 30
+
+# =========================
+# SYLA Palette
+# =========================
+
+foreground              {fg}
+background              {bg}
+
+selection_foreground    {bg}
+selection_background    {primary}
+
+cursor                  {primary}
+cursor_text_color       {bg}
+
+# Negro
+color0  {bg_light}
+color8  {muted}
+
+# Rojo
+color1  {urgent}
+color9  {urgent}
+
+# Verde
+color2  {muted}
+color10 {primary}
+
+# Amarillo
+color3  {highlight}
+color11 {highlight}
+
+# Azul
+color4  {primary}
+color12 {primary}
+
+# Magenta
+color5  {accent}
+color13 {accent}
+
+# Cyan
+color6  {primary}
+color14 {primary}
+
+# Blanco
+color7  {fg}
+color15 #ffffff

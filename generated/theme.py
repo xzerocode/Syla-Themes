@@ -1,0 +1,10 @@
+colors = {
+    "bg": "#111827",
+    "bg_light": "#1b2735",
+    "fg": "#d6e8f5",
+    "primary": "#49d6ff",
+    "muted": "#2bb6c4",
+    "accent": "#7c5cff",
+    "highlight": "#c9a86a",
+    "urgent": "#ff6b81"
+}

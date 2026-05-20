@@ -5,7 +5,6 @@ import json
 class SylaThemes():
     def __init__(self, palette):
         self.syla_dir = Path.home() / ".config/syla/Themes/colors"
-        self.qtile_theme = Path.home() / ".config/qtile/theme.py"
         self.name = palette
         
     def load_palette(self) -> dict:
@@ -17,6 +16,11 @@ class SylaThemes():
             return colors
     
     def generate_qtile_theme(self, colors: dict):
-        content = f"""colors = {json.dumps(colors, indent=4)}"""
+        template_path = Path("templates/qtile_theme.py.template")
+        output_path = Path("generated/theme.py")
 
-        self.qtile_theme.write_text(content)
+        template_content = template_path.read_text()
+        
+        rendered_template = template_content.format(colors=json.dumps(colors, indent=4))
+
+        output_path.write_text(rendered_template)
